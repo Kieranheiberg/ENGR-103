@@ -77,6 +77,10 @@ int counterClockwiseDistanceBetweenLeds(int prevPos, int nextPos){
 
 static int speeds[] = { 0, 5, 10, 20, 35, 50, 70, 90, 120 };
 
+void cowbell (int number) {
+  return number/random(100);
+}
+
 void rainbowCycle(int currentSpeed)  {
     // Make an offset based on the current millisecond count scaled by the current speed.
     uint32_t offset = millis() / speeds[currentSpeed];
