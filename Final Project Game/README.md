@@ -5,7 +5,7 @@ Created by Kieran Heiberg for his ENGR 103 final project at Oregon State Univers
 Game is designed for the Adafruit circuit playground express board and should be run in the Arduino IDE for optimal game experience. The circuit playground express board requires a USB B type cable for power.
 
 ## Device Instructions
-Game turned on by switch. The small built in LED will light up red when game is on. Turning switch off and on will cause game to reset (helpful if a player dies and wants to play again). 
+Game is turned on by switch. The small built in LED will light up red when game is on. Turning switch off and on will cause game to reset (helpful if a player dies and wants to play again). 
 The player controls their position relative to the enemy with the devices incorporated accelerometer to track rotation on the xy plane. The device should be held with the USB B port pointing down and the LEDs facing the player. Ensure the LEDs are always facing the player and then spin the device to the left or right to aim the players weapon. The players current position will be indicated by a white colored cursor on one of the LEDS or a green colored cursor if it is lined up with the approaching enemy. 
 Left button fires blue bullet.
 Red button fires red bullet.
