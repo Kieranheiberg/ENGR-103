@@ -18,3 +18,6 @@ A single enemy will approach the player from any direction (LED). The enemy star
 All important game variables are printed to the Arduino IDE serial monitor during the game for reference and debugging purposes
 Sound effect volume is non adjustable and can be quite loud. All game sound effects can be turned of by changing boolean variable sound to false (located on line 23 of "A Twist on Space Invaders.ino" file).
 There is a known bug where an enemy will approach at a much faster speed than anticipated following the start of a new round. This will often cause a player to lose a life as the window to eliminate the enemy is much smaller. This bug is due to the program entering the increase enemy brightness portion of the code more than once within the 0.5 second asynchronous delay window. The code was tested and debugged for a while but could not be fixed. A temporary solution was enacted with an invincible boolean variable that makes the player invincible to the first enemy that hits them in a round.
+
+## Code Credit
+Acceleration calculations and method were taken and modified from code written by ENGR 103 instructor Chet Udell to create calculateAngle() method. LED loigc for beatGame() method was taken from a sample code posted by Chet Udell as part of the classes kaleidoscope project.
