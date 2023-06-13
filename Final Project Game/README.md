@@ -2,7 +2,7 @@
 Created by Kieran Heiberg for his ENGR 103 final project at Oregon State University. Go beavs!!
 
 ## Code Instruction
-Game is designed for the Adafruit circuit playground express board and should be run in the Arduino IDE for optimal game experience. The circuit playground express board requires a USB B type cable for power.
+Game is designed for the Adafruit circuit playground express board and should be run in the Arduino IDE for optimal game experience. The circuit playground express board requires a USB B type cable for power. The AsyncDelay and Adafruit_CircuitPlayground libraries wre utilized for this game and are required for its operation.
 
 ## Device Instructions
 Game is turned on by switch. The small built in LED will light up red when game is on. Turning switch off and on will cause game to reset (helpful if a player dies and wants to play again). 
