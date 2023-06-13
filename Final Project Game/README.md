@@ -1,5 +1,5 @@
 # A Twist on Space Invaders
-## Created by Kieran Heiberg for his ENGR 103 final project at Oregon State University. Go beavs!!
+Created by Kieran Heiberg for his ENGR 103 final project at Oregon State University. Go beavs!!
 
 ## Code Instruction
 Game is designed for the Adafruit circuit playground express board and should be run in the Arduino IDE for optimal game experience. The circuit playground express board requires a USB B type cable for power.
